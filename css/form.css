@@ -1,0 +1,161 @@
+#order_form {
+	background-image: url("../img/formbg.jpg");
+	padding: 20px;
+	max-width: 600px;
+	text-align: center;
+	margin: 20px auto;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+
+/*checkbox*/
+
+.form-checkbox {
+	align-items: center;
+	display: grid;
+	grid-template-columns: min-content auto;
+	column-gap: 10px;
+	padding: 0;
+	justify-content: center;
+	margin-bottom: 20px;
+	align-self: flex-start;
+}
+
+.form-checkbox-text,
+.form-checkbox-link {
+	color: #9c9c9c;
+	font-size: 14px;
+	text-align: left;
+}
+
+.form-checkbox-link {
+	font-weight: 600;
+	text-decoration: none;
+	color: black;
+}
+
+input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.product {
+	display: block;
+	max-width: 400px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+/* TIMER */
+
+.time-block {
+	margin-bottom: 20px;
+}
+
+.time-title {
+	margin-bottom: 15px;
+	font-size: 32px;
+}
+
+.time-remain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: 300;
+  text-transform: uppercase;
+	color: rgb(243, 0, 16);
+}
+
+.time-remain-items {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 14px;
+	font-size: 32px;
+}
+
+.time-text {
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.time-dots {
+	font-size: 32px;
+}
+
+/* form */
+
+.form__container {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.input__inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	margin: 0 auto;
+}
+
+select,
+.input {
+	max-width: 50%;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	min-width: 100%;
+}
+
+.order_button {
+	border-radius: 5px;
+	text-transform: uppercase;
+	line-height: 1;
+	display: block;
+	padding: 15px 25px;
+	font-size: 15px;
+	font-weight: 700;
+	color: #fff !important;
+	background-color: #CE2121;
+	text-decoration: none !important;
+	/* transition: all .5s ease 0; */
+	margin: 0 auto 20px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.order_button:hover {
+	text-decoration: none;
+	color: #fff;
+	transform: scale(1.1);
+	transition: all .5s ease 0
+}
+
+.price {
+	display: flex;
+	justify-content: space-between;
+	max-width: 150px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-size: 28px;
+	font-weight: bold;
+	color: red;
+}
+
+.price .wv_currency {
+	margin-left: -5px;
+}
+
+.old-price {
+	color: #000;
+	text-decoration: line-through;
+}
